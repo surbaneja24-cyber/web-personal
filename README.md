@@ -1,16 +1,45 @@
-# React + Vite
+# Web Personal / Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de portafolio personal y servicios web, construido con React y Vite.
 
-Currently, two official plugins are available:
+## Tecnologias y Librerias Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El proyecto utiliza las siguientes herramientas clave:
+- React (Framework de interfaz de usuario)
+- Vite (Entorno de desarrollo rapido y empaquetador)
+- GSAP (Libreria para animaciones complejas y fluidas)
+- Lenis (Libreria para scroll suave y magnetico)
 
-## React Compiler
+## Requisitos Previos
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Asegurate de tener instalado Node.js en tu ordenador antes de comenzar.
 
-## Expanding the ESLint configuration
+## Instalacion y Ejecucion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sigue estos pasos para instalar las dependencias e iniciar el servidor de desarrollo en tu maquina local.
+
+1. Abre una terminal en la carpeta raiz del proyecto.
+
+2. Instala todas las dependencias necesarias ejecutando:
+
+   ```bash
+   npm install
+   ```
+
+3. Una vez termine la instalacion, inicia el servidor de desarrollo con el siguiente comando:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Abre tu navegador y visita la URL que aparece en la terminal (generalmente es http://localhost:5173/).
+
+## Construccion para Produccion
+
+Para compilar el proyecto y generar los archivos optimizados listos para subir a un servidor web, ejecuta:
+
+```bash
+npm run build
+```
+
+Esto creara una carpeta llamada "dist" con los archivos estaticos finales.
